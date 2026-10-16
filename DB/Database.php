@@ -1,14 +1,14 @@
 <?php
 
-$dsn = "mysql:host=localhost;dbname=saep_db;charset=utf8";
-$usuario = "root";
-$senha = "";
+$dsn = 'mysql:host=localhost;dbname=saep_db;charset=utf8mb4';
+$usuarioBanco = 'root';
+$senhaBanco = '';
 
 try {
-    $pdo = new PDO($dsn, $usuario, $senha);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo = new PDO($dsn, $usuarioBanco, $senhaBanco, [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+    ]);
 } catch (PDOException $e) {
-    echo "Erro: " . $e->getMessage();
+    die('Não foi possível conectar ao banco de dados.');
 }
-
-?>
