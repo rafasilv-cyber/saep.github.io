@@ -43,8 +43,8 @@ CREATE TABLE movimentacoes (
 -- A senha dos três usuários é 123456.
 INSERT INTO usuarios (nome, email, senha) VALUES
     ('Rafa', 'rafa@saep.com', '$2y$10$2m8uwcAWmkuDNeGEIrMYgeNuswpO0jN0RCyVYDcsABzduuHH1xs5K'),
-    ('Bruno Lima', 'bruno@saep.com', '$2y$10$2m8uwcAWmkuDNeGEIrMYgeNuswpO0jN0RCyVYDcsABzduuHH1xs5K'),
-    ('Carla Mendes', 'carla@saep.com', '$2y$10$2m8uwcAWmkuDNeGEIrMYgeNuswpO0jN0RCyVYDcsABzduuHH1xs5K');
+    ('Jhou', 'jhou@saep.com', '$2y$10$2m8uwcAWmkuDNeGEIrMYgeNuswpO0jN0RCyVYDcsABzduuHH1xs5K'),
+    ('Cavalari', 'cavalari@saep.com', '$2y$10$2m8uwcAWmkuDNeGEIrMYgeNuswpO0jN0RCyVYDcsABzduuHH1xs5K');
 
 INSERT INTO produtos
     (nome, descricao, categoria, material, tamanho, peso, caracteristicas,

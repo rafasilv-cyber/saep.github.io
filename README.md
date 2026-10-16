@@ -10,10 +10,13 @@ O código segue o padrão MVC: `Model` acessa o banco, `Controller` processa as 
 2. Importe o arquivo `DB/saep_db.sql` no phpMyAdmin.
 3. Acesse `http://localhost/saep.github.io/`.
 
-## Acesso de demonstração
+## Acessos de demonstração
 
-- E-mail: `rafa@saep.com`
-- Senha: `123456`
+Todos os usuários utilizam a senha `123456`:
+
+- `rafa@saep.com`
+- `jhou@saep.com`
+- `cavalari@saep.com`
 
 ## Funções disponíveis
 
